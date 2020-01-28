@@ -15,7 +15,8 @@ from Kaggle has at least 12 million. To do this, we ran a bash script to randoml
 that to train our model.
 
 Bash: shuf Train.csv > TrainPerm.csv
-      head -n 1000000 TrainPerm.csv > TrainPerm-1MM.csv
+
+head -n 1000000 TrainPerm.csv > TrainPerm-1MM.csv
       
 The lasso R script contains the code for the lasso regression, and the catboost notebook contains the code for our catboost model. 
 
